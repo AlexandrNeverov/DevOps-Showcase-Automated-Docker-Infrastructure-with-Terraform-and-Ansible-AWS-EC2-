@@ -71,4 +71,5 @@ ansible-playbook -i inventory/hosts.ini playbooks/site.yml
 # ----------------------------------------
 # Step 6: Show Docker UI endpoint
 # ----------------------------------------
+echo "✅ All setup scripts executed successfully! Use 'ssh -i /home/ubuntu/.ssh/zero-node-key ubuntu@<public-ip> to connect'"
 echo "🌐 Docker UI is available at: http://$EC2_IP:9000"
